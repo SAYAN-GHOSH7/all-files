@@ -1,0 +1,39 @@
+/* Default Light Mode Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s, color 0.5s;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Styles for Box */
+.box.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: #444;
+    color: white;
+}

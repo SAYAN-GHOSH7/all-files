@@ -1,0 +1,127 @@
+body {
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.big-main-box {
+    background-color: #ffd541;
+    height: 800px;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-div {
+    border: 2px solid black;
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.Latest-News {
+    height: 50px;
+    /* background-color: #3c3c3c; */
+}
+
+.three-box {
+    height: 600px;
+    width: 100%;
+    /* background-color: rgb(153, 93, 19); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media (min-width:400px) {
+    .big-main-box{
+        height: 1000px;
+        width: 100%;
+    }
+
+    .sec-div{
+        height: 2000px;
+        flex-direction: column;
+        background-color: green;
+    }
+
+    .three-box{
+        height: 1500px;
+        background-color: brown;
+        flex-direction: column;
+    }
+
+    .one{
+        height: 100px;
+    }
+}
+
+@media (min-width:700px) {
+    .big-main-box {
+        background-color: #ffd541;
+        height: 800px;
+        width: 1900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sec-div {
+        border: 2px solid black;
+        height: 700px;
+        width: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }   
+    .Latest-News {
+        height: 50px;
+        /* background-color: #3c3c3c; */
+    }
+    
+    .three-box {
+        height: 600px;
+        width: 100%;
+        /* background-color: rgb(153, 93, 19); */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+}
+
+
+.one {
+    height: 450px;
+    width: 390px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one img {
+    height: 300px;
+    width: 100%;
+}
+
+.one .first-writing {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+}
+
+.first-writing:hover {
+    color: #ffd541;
+}

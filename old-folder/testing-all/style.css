@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.big-main-box {
+  border: 2px solid black;
+  height: 800px;
+  width: 1900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-div {
+  border: 2px solid blue;
+  height: 700px;
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Latest-News {
+  border: 2px solid brown;
+  height: 50px;
+  /* background-color: #3c3c3c; */
+}
+
+.three-box {
+  height: 600px;
+  width: 100%;
+  /* border: 2px solid orange; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.one {
+  height: 450px;
+  width: 390px;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.one img {
+  height: 300px;
+  width: 100%;
+}
+.one .first-writing {
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.first-writing:hover {
+  color: #ffd541;
+}
+.one p {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.one img:hover {
+  box-shadow: 1px 1px 15px black;
+}
+
+.big-section {
+  height: 800px;
+  width: 1900px;
+  background-color: rgb(190, 185, 178);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-big-section {
+  height: 650px;
+  width: 1800px;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.News {
+  height: 60px;
+  /* border: 2px solid yellow; */
+  padding-top: 50px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  height: 500px;
+  width: 100%;
+  /* background-color: rgb(129, 65, 65); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.all-card {
+  height: 500px;
+  width: 390px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.all-card img {
+  height: 350px;
+  width: 100%;
+}
+
+.Things {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.April {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+img:hover{
+   box-shadow: 2px 2px 10px black;
+   
+}
+.Things:hover{
+    color: #ffd541;
+}
+
+
+
+
+
+

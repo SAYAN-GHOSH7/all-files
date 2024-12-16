@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu {
+  height: 90px;
+  width: 100%;
+  background-color: darkgoldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.nav-menu img {
+  height: 90px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+ul {
+  border: 2px solid black;
+  height: 80px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-menu ul li {
+  border: 2px solid black;
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
+  cursor: pointer;
+}

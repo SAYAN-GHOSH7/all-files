@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Nav-bar {
+  height: 90px;
+  width: 1915px;
+  background-color: rgb(62, 13, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+}
+.nav-one {
+  height: 80px;
+  width: 350px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.nav-one h1 {
+  color: white;
+}
+.nav-two {
+  height: 80px;
+  width: 1030px;
+  /* border: 2px solid black; */
+}
+.nav-two ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.nav-two a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  color: cadetblue;
+}
+
+.nav-two i {
+  font-size: 35px;
+}
+.nav-two button {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  margin-right: 10px;
+  color: white;
+}
+
+.Box {
+  height: 830px;
+  width: 1915px;
+  background-color: brown;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.Box img {
+  height: 830px;
+  width: 100%;
+}
+.Text {
+  height: 250px;
+  width: 700px;
+  /* border: 2px solid black; */
+  background-color: white;
+  position: absolute;
+  margin-top: 579px;
+  /* display: flex;
+    justify-content: center; */
+}
+
+.Text .Developing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+.Text .ACHIEVING {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Consultation {
+  height: 50px;
+  width: 250px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.Consultation button {
+  height: 50px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.Consultation :hover {
+  background-color: rgb(62, 13, 109);
+  color: white;
+}
+
+.Three-Box-Main {
+  height: 700px;
+  width: 1915px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Boxes {
+  height: 545px;
+  width: 350px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Boxes .SERVICES {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 5px;
+}
+
+.small-text-box {
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid rgb(160, 16, 226); */
+  display: flex;
+  flex-direction: column;
+}
+.paragraph {
+  display: flex;
+  margin-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.More-Info {
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 72px;
+  margin-left: 90px;
+  border: none;
+}
+.More-Info button {
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+}
+
+.More-Info :hover {
+  background-color: rgb(62, 13, 109);
+  color: white;
+}
+
+.big-mountain {
+  height: 650px;
+  width: 1915px;
+  /* border: 2px solid black; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-mountain img {
+  height: 650px;
+  width: 100%;
+}
+.content {
+  height: 500px;
+  width: 800px;
+  /* border: 2px solid blue; */
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ABOUT {
+  color: black;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mini-box {
+  height: 50px;
+  width: 150px;
+}
+.mini-box button {
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  border: none;
+}
+
+.mini-box :hover {
+  background-color: rgb(62, 13, 109);
+  color: white;
+}
+
+.next-section {
+  height: 650px;
+  width: 1915px;
+  /* border: 2px solid black; */
+}
+.OUR-CLIENTS {
+  height: 200px;
+  width: 1915px;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.OUR-CLIENTS p {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.leando {
+  height: 190px;
+  width: 100%;
+  /* border: 2px solid rgb(64, 214, 19); */
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.leando .ratio {
+  height: 187px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.three-box {
+  height: 600px;
+  width: 1915px;
+  /* border: 2px solid navy; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TESTIMONIALS {
+  height: 400px;
+  width: 800px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.testimonial {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.something {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.Marketing {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: rgb(62, 13, 109);
+}
+.Sima {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.inner-div {
+  height: 500px;
+  width: 1915px;
+  background-color: rgb(62, 13, 109);
+  display: flex;
+  position: relative;
+}
+.CONTACT {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(43, 226, 43); */
+  position: absolute;
+  margin-top: 30px;
+}
+
+.CONTACT p {
+  font-size: 40px;
+  color: white;
+}
+.filup {
+  height: 300px;
+  width: 800px;
+  /* border: 2px solid black; */
+  position: absolute;
+  display: flex;
+  margin-top: 160px;
+  margin-left: 550px;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 110px;
+  justify-content: space-between;
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.box-model{
+  height: 500px;
+  width: 1915px;
+  background-color: #072136;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.lour-div{
+  height: 450px;
+  width: 350px;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+
+}
+
+.fa-brands{
+  font-size: 35px;
+}
+.Terry{
+  font-size: 25px;
+}

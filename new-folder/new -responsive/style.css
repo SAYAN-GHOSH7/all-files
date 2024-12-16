@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.training {
+  height: 900px;
+  width: 100%;
+  background-color: cadetblue;
+}
+
+.training h1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+.container {
+  height: 795px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+justify-content: space-evenly;
+}
+
+.all-box {
+  height: 350px;
+  width: 260px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+}
+
+.all-box i{
+    padding: 20px 0px;
+    font-size: 25px;
+    color: rgb(238, 238, 241);
+}
+
+.Webdevlopment {
+    padding: 15px ;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: chocolate;
+}
+.ipsum{
+padding: 15px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    padding: 15px;
+}

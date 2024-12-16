@@ -1,0 +1,361 @@
+/* for roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* roboto condensed */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, [class^='heading-'] {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #151515;
+    letter-spacing: 0;
+}
+
+.page-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    background-color: rgba(37, 35, 35, 0.397);
+}
+
+.nav-bar-main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.logo-div{
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-div img{
+    height: 42px;
+    width: 151px;    
+}
+
+.menu-section{
+    width: 1000px;  
+}
+.menu-section ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ 
+}
+
+.menu-section ul a{
+    text-decoration: none;
+}
+
+.right-navbar{
+    width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right-navbar-inside{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.right-navbar-inside ul{
+    font-size: 20px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+
+    .page-header{
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 30;
+        background-color:#686c6f51;
+    }
+
+    .nav-bar-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .menu-section ul {
+        display: none; /* Hide the regular menu */
+    }
+
+    .menu-icon {
+        display: block; /* Show the hamburger icon */
+        margin: 5px 10px;
+    }
+}
+
+/* Media query for larger screens (min-width: 993px) */
+
+@media (min-width: 993px) {
+    .menu-icon {
+        display: none; /* Hide the hamburger icon on larger screens */
+    }
+
+    .menu-section ul {
+        display: flex; /* Show the full menu */
+    }
+} 
+
+.main-class-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-class-section img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box; 
+}
+
+
+/* check */
+
+.hidden-menu{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.451);
+    margin-top: 100px;
+    z-index: -1;
+    display: none;
+    max-width: fit-content;
+}
+.hidden-menu ul{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ 
+}
+
+.hidden-menu ul a{
+    text-decoration: none;
+}
+
+/* .hidden-menu{
+    display: none;
+} */
+
+.slider {
+ /* gguihi */
+ 
+    position: relative;
+    width: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; 
+}
+
+
+.slide {
+   
+    min-width: 100%; 
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden; 
+    position: relative; 
+}
+
+
+.slide img {
+   
+    width: 100%;
+    height: auto; 
+    display: block; 
+   
+}
+
+
+.slide-info {
+    position: absolute; 
+    width: 500px;
+    height: 350px;
+    top: 300px; 
+    left: 22%; 
+    transform: translateX(-50%); 
+    color: white; 
+    text-align: center; 
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 10px; 
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.slide-info .welcome{
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.slide-info .construction{
+    font-weight: 700;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.slide-info button{
+    height: 60px;
+    width: 160px;
+    color: #151515;
+    background-color: #ffd541;
+    border-color: #ffd541;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Add padding for better click area */
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Adjust button sizes and positions for smaller screens */
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Button hover effect */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+@media (max-width: 768px) {
+    .prev, .next {
+        padding: 8px; 
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .prev, .next {
+        padding: 5px; 
+        font-size: 14px; 
+    }
+}
+
+.safety-section{
+    /* margin-top: 20px; */
+    height: 254px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-section{
+    height: 90px;
+    width: 300px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.all-section-safety{
+    font-size: 28px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #151515;
+}
+
+.all-section-making{
+    font-size: 18px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: black;
+}
+.custom-icon{
+    font-size: 4.5rem ;
+    color: green;
+}
+
+@media (max-width: 768px) {
+    .safety-section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

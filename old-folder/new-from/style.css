@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-img{
+  background-color: black;
+  height: 450px;
+  width: auto;
+  position: relative;
+}
+.banner-text{
+    position: absolute;
+    
+}
+.banner-text h1{
+    height: 70px;
+    display: flex;
+    color: white;
+    margin-left: 580px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.banner-text p{
+    height: 70px;
+    width:auto ;
+    color: white;
+    margin-left:500px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(37, 125, 180);
+    border-radius: 15px;
+    margin-top: 15%;
+    margin-left: 47%;
+    border: none;
+}
+
+.box a{
+color: white;
+text-decoration: none;
+}
+
+.div-box{
+    background-color: rgb(70, 51, 22);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.services{
+color: white;
+margin-left: 15px;
+}
+
+.main-text{
+    height: 400px;  
+    background-color: rgb(48, 197, 37);
+    display:flex;
+}

@@ -1,0 +1,1 @@
+  // printf("area is :%d", side * side);

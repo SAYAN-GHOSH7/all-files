@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 800px;
+    height: 1500px;
+    background-color: red;
+    color: white;
+    position: absolute;
+}
+
+#two {
+    width: 200px;
+    height: 300px;
+    /* position: relative; */
+    /* position: absolute; */
+    background: blue;
+}
+
+#three {
+    width: 300px;
+    height: 400px;
+    /* position: absolute; */
+    position: relative;
+    background-color: green;
+}
+
+#four {
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+    /* position: absolute; */
+    background-color: black;
+}

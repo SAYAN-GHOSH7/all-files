@@ -1,0 +1,343 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.main-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: rgba(128, 128, 128, 0.267);
+
+}
+
+.main-nav-bar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+     
+}
+
+.logo-img{
+   /* background-color: blueviolet; */
+   height: 100%;
+   width: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.logo-img img{
+  height: 45px;
+  width: 150px;
+}
+
+.menu-section{
+    /* background-color: brown; */
+    width: 1000px;
+    margin-left: 10px;
+}
+
+.menu-section ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size:16px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ 
+}
+
+.menu-section ul a {
+  text-decoration: none;
+  color: white;
+}
+
+ li:hover{
+    color: orange;
+}
+
+.right-div{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: cadetblue */
+}
+.right-navbar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right-navbar i{
+    color: orange;
+}
+
+.number{
+    color: white;
+}
+
+/* main-section */
+
+
+.slider{
+    /* background-color: blueviolet; */
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide{
+    min-width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden; 
+    position: relative; 
+}
+
+
+.slide img {
+   
+    width: 100%;
+    height: auto; 
+    display: block; 
+   
+}
+
+
+.slide-info {
+    position: absolute; 
+    width: 500px;
+    height: 350px;
+    top: 300px; 
+    left: 25%; 
+    transform: translateX(-50%); 
+    color: white; 
+    text-align: center; 
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+   
+}
+
+
+.slide-info .welcome{
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.slide-info .construction{
+    font-weight: 700;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.slide-info button{
+    height: 60px;
+    width: 160px;
+    color: #151515;
+    background-color: #ffd541;
+    border-color: #ffd541;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+}
+
+.safety-section{
+ height: 254px;
+ width: 100%;
+ display: flex;
+ background-color: #f5f5f5;
+ justify-content: space-around;
+ align-items: center;
+
+}
+
+.all-section{
+    /* background-color: #ffd541; */
+    height: 120px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.safety{
+    display: flex;
+    font-size: 28px;
+    color: black;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.marking{
+    font-size: 18px;
+    color: black;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+   
+}
+
+.all-section i{
+    display: flex;
+    padding: 15px 5px;
+    font-size: 3.5rem ;
+    color: green;
+}
+
+
+.Big-div{
+    height: 250px;
+    width: 100%;
+    background-color: #444141;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-section{
+    height: 150px;
+    width: 1400px;
+    display: flex;
+    /* background-color: #ffd541; */
+    margin-left: 18%;
+    margin-top: 60px;
+}
+
+.Browse{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.We-provide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.six-div{
+    height: 1100px;
+    width: 100%;
+    background-color: #444141;
+    /* flex-direction: row; */
+  
+  
+}
+.card{
+   display: inline-block;
+   height: 450px;
+   width: 350px; 
+   background-color: white;
+   margin-top: 5%;
+   margin-left: 60px;
+   margin: 50px;
+  
+
+}
+.image:hover{
+   box-shadow: 1px 1px 20px black;
+  
+}
+.image img{
+   width: 100%;
+   
+ 
+}
+
+.agriculture{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.agriculture h2{
+   font-weight: 500;
+}
+.agriculture .models{
+    margin-top: 10px;
+}
+
+
+/* close all card  */
+
+.all-equpment{
+    background-color: #b11414;
+    height: 270px;
+    width: 100%;
+   position: relative;
+}
+
+.div-equpment{
+    height: 100px;
+    width: 500px;
+    background-color: #ffd541;
+    position: absolute;
+    left: 10%;
+    margin-top: 5%;
+     
+    
+}
+
+.EQUIPMENT-last{
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+}
+
+.all-tag{
+    height: 100px;
+    width: 900px;
+    background-color: blue;
+    position: absolute;
+    display: flex;
+    left: 52%;
+    top: 165px;
+}
+
+.all-tag .all-ul{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="page-header">
+            <nav class="nav-bar-main">
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </div>
+
+                <div class="logo-div">                    
+                    <img src="./src/logo-main.webp" alt="">
+                </div>
+
+                <div class="menu-section">
+                    <ul>
+                        <a href=""><li>home</li></a>
+                        <a href=""><li>home</li></a>
+                        <a href=""><li>home</li></a>
+                        <a href=""><li>home</li></a>
+                        <a href=""><li>home</li></a>
+                        <a href=""><li>home</li></a>
+                    </ul>
+                </div>
+
+                <div class="right-navbar">
+                    <div class="right-navbar-inside">
+                        <i class="fa-solid fa-phone"></i>
+                        <ul>222-222-222</ul>
+                    </div>
+                    
+                </div>
+
+            </nav>
+    </header>
+
+    <main class="main-class-section">
+
+        <div class="hidden-menu">
+            <ul>
+                <a href=""><li>home</li></a>
+                <a href=""><li>home</li></a>
+                <a href=""><li>home</li></a>
+                <a href=""><li>home</li></a>
+                <a href=""><li>home</li></a>
+                <a href=""><li>home</li></a>
+            </ul>
+        </div> 
+
+        <div class="slider">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            
+            <div class="slides">
+                <div class="slide">
+                    <img src="./src/gallery-5-original.jpg" alt="Image 1">
+                    <div class="slide-info">
+                        <p class="welcome">WELCOME TO DIGGER</p>
+                        <p class="construction">CONSTRUCTION EQUIPMENT</p>
+                        <button>GET IN TOUCH</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./src/swiper-slide-2.jpg" alt="Image 2">
+                    <div class="slide-info">
+                        <p class="welcome">Hello1</p>
+                        <p class="construction">one1</p>
+                        <button>Okay1</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./src/swiper-slide-2.jpg" alt="Image 3">
+                    <div class="slide-info">
+                        <p class="welcome">Hello2</p>
+                        <p class="construction">one2</p>
+                        <button>Okay2</button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        
+
+    </main>
+
+    <div class="safety-section">
+            <div class="all-section">
+                <i class="fa-regular fa-note-sticky custom-icon"></i>
+                <div>
+                    <p class="all-section-safety">Safety</p>
+                    <p class="all-section-making">Making your work place safe</p>
+                </div>
+            </div>
+            <div class="all-section">
+                <i class="fa-solid fa-people-group custom-icon"></i>
+                <div>
+                    <p class="all-section-safety">Safety</p>
+                    <p class="all-section-making">Making your work place safe</p>
+                </div>
+            </div>
+            <div class="all-section">
+                <i class="fa-solid fa-gear custom-icon"></i>
+                <div>
+                    <p class="all-section-safety">Safety</p>
+                    <p class="all-section-making">Making your work place safe</p>
+                </div>
+            </div>
+    </div>
+
+
+</body>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,746 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.main-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+.main-nav-bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-img {
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img img {
+    height: 45px;
+    width: 150px;
+}
+
+.menu-section {
+    /* background-color: brown; */
+    width: 1000px;
+    margin-left: 10px;
+}
+
+.menu-section ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.menu-section ul a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    color: orange;
+}
+
+.right-div {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: cadetblue */
+}
+
+.right-navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-navbar i {
+    color: orange;
+}
+
+.number {
+    color: white;
+}
+
+/* main-section */
+
+.slider {
+    /* background-color: blueviolet; */
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slide-info {
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    top: 300px;
+    left: 25%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.slide-info .welcome {
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.slide-info .construction {
+    font-weight: 700;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.slide-info button {
+    height: 60px;
+    width: 160px;
+    color: #151515;
+    background-color: #ffd541;
+    border-color: #ffd541;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.safety-section {
+    height: 254px;
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-section {
+    /* background-color: #ffd541; */
+    height: 120px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.safety {
+    display: flex;
+    font-size: 28px;
+    color: black;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.marking {
+    font-size: 18px;
+    color: black;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+}
+
+.all-section i {
+    display: flex;
+    padding: 15px 5px;
+    font-size: 3.5rem;
+    color: green;
+}
+
+.Big-div {
+    height: 250px;
+    width: 100%;
+    background-color: #3c3c3c;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-section {
+    height: 150px;
+    width: 1400px;
+    display: flex;
+    /* background-color: #ffd541; */
+    margin-left: 18%;
+    margin-top: 60px;
+}
+
+.Browse {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.We-provide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.card {
+    display: inline-block;
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 60px;
+    margin: 50px;
+}
+
+.image:hover {
+    box-shadow: 1px 1px 20px black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.agriculture {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.agriculture h2 {
+    font-weight: 500;
+}
+
+.agriculture .models {
+    margin-top: 10px;
+}
+
+.six-div {
+    height: 1100px;
+    width: 100%;
+    background-color: #3c3c3c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    width: fit-content;
+    height: 45%;
+    background-color: #3c3c3c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .six-div {
+        height: 900px;
+    }
+
+    .card-container {
+        height: 40%;
+    }
+}
+
+@media (max-width: 992px) {
+    .six-div {
+        height: 700px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .six-div {
+        height: auto;
+        padding: 20px;
+    }
+
+    .card-container {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .six-div {
+        height: auto;
+        padding: 10px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+}
+
+/* close all card  */
+
+.all-equpment {
+    background-color: white;
+    height: 270px;
+    width: 100%;
+    position: relative;
+}
+
+.div-equpment {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    left: 10%;
+    margin-top: 5%;
+}
+
+.EQUIPMENT-last {
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    color: black;
+}
+
+.all-tag {
+    height: 100px;
+    width: 900px;
+    background-color: #3c3c3c;
+    position: relative;
+    left: 52%;
+    top: 165px;
+}
+
+.all-type {
+    height: 70px;
+    width: 700px;
+    position: absolute;
+    top: 17px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.all-ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.all-li {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #ffffff66;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.all-li:hover {
+    color: white;
+}
+
+.all-features {
+    background-color: #f5f5f5;
+    height: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-truck {
+    /* background-color: #f5f5f5; */
+    height: 100%;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-truck {
+    height: 200px;
+    width: 85%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.truck-img img {
+    height: 150px;
+    width: 200px;
+    background-color: #ffd541;
+    top: 50px;
+    left: 20px;
+}
+
+.Dump-Truck {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    left: 15%;
+}
+
+.Brands{
+    /* background-color: bisque; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.Brands-level{
+    height: 90px;
+    width: 500px;
+    /* background-color: #3c3c3c; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brands-level h1{
+    color: black;
+
+}
+.sponsor{
+    height: 200px;
+    width: 1200px;
+    /* background-color: #ffd541; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 330px;
+}
+
+.all-sponsor{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 70px;
+    /* background-color: gray; */
+}
+
+.all-sponsor:hover{
+    box-shadow: 1px 1px 15px black;
+    transition: 0.5s;
+}
+
+.box{
+    /* border: 5px solid black; */
+    height: 400px;
+    width: 1892px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.track-image{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+}
+
+.track-image img{
+    width:1892px ;
+    height: 400px;
+}
+
+.Have-questions{
+    height: 100px;
+    width: 500px;
+    /* border: 2px solid black; */
+    position: absolute;
+    /* background-color: blueviolet; */
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+.click{
+    height: 100px;
+    width:150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.click button{
+    height: 70px;
+    width: 150px;
+    color: black;
+    font-weight: 700;
+    background-color: #ffd541;
+    border: none;
+}
+
+.big-main-box{
+    /* background-color: #ffd541; */
+    height: 800px;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sec-div{
+    border: 2px solid black;
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Latest-News{
+    height: 50px;
+    background-color: #3c3c3c;
+}
+
+.three-box{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(153, 93, 19);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.one{
+    height: 450px;
+    width: 390px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.one img{
+    height:300px;
+    width: 100%;
+
+}
+.one .first-writing{
+ font-size: 22px;
+ letter-spacing: 1.5px;
+ font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, "Helvetica Neue", Arial, sans-serif;
+ font-weight: 500;
+} 
+
+.first-writing:hover{
+ color: #ffd541;
+}
+.one p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.one img:hover{
+    box-shadow: 1px 1px 15px black;
+}
+
+.footer{
+    height: 500px;
+    width: 1900px;
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-footer{
+    height: 400px;
+    width: 700px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.our-information{
+    height: 350px;
+    width:550px;
+    /* border:2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all-photo{
+    height: 350px;
+    width: 130px;
+   
+}
+.apple{
+    height: 170px;
+    width: 400px;
+    /* border: 2px solid burlywood; */
+    justify-content: space-around;
+}
+
+.mango{
+    height:90px;
+    width: 500px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.mango .input{
+height: 50px;
+width: 350px;
+}
+
+.mango button{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.Our-Contacts{
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+   
+}
+
+.Francis{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.phone{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+.phone-two{
+    color: rgba(255, 255, 255, 0.5);
+}
+.all-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.SHARE{
+    color: white;
+}
+
+.sub-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+   
+}

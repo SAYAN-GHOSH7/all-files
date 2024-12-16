@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;         
+
+}
+.navbar{
+    height: 70px;
+    width: 1915px;
+    border: 2px solid black;
+}
+.crafter{
+    height: 65px;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.crafter p{
+    font-size: 37px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.all-memu-name{
+    height: 65px;
+    width: 500px;
+    border: 2px solid blue;
+    display: flex;
+   
+}
